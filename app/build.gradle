@@ -19,7 +19,7 @@ def getGitHash = { ->
     return stdout.toString().trim()
 }
 
-def defaultAppName = "ESP RainMaker"
+def defaultAppName = "My Smart Control"
 def defaultTransport = "Both"
 def defaultSecurity = "2"
 def defaultPoP = ""
@@ -69,7 +69,7 @@ android {
     compileSdk 35
 
     defaultConfig {
-        applicationId "com.espressif.rainmaker"
+        applicationId "com.yourbrand.smartcontrol"
         minSdkVersion 27
         targetSdkVersion 35
         versionCode 181
